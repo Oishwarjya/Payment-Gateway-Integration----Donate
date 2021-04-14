@@ -43,7 +43,7 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: #007580;
+	color: #e419b8;
 }
 
 .cta {
@@ -56,9 +56,7 @@ p {
 	text-transform: uppercase;
 	letter-spacing: .1rem;
 	margin-top: 30px;
-	transition: .3s ease;
-	transition-property: background-color, color;
-}
+	}
 .cta:hover {
 	color: white;
 	background-color: #007580;
@@ -69,7 +67,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color:#007580;
+	color:#e419b8;
 }
 
 /* Header section */
@@ -200,7 +198,16 @@ p {
 /* End Header section */
 
 /* Hero Section */
-#hero {
+#hero .video-container {
+	min-width: 100%;
+	min-height: 100%;
+  position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+  {
 	background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIHDg0PBw0RERAPDQ4PDQ8TDg8REQ8NFRIWFhUREx8YHSggGBolHRUVITEhJSkrLi4uGB8zODMsNygtLi4BCgoKDg0NFQ8QGC0lHR4rLS0rLS0tLS0tLjctLSsrKystLSsrNystNy03NystNys3Ky0rLS0rNys3LSsrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQMCBAb/xAArEAEAAQIEBQIGAwAAAAAAAAAAAQIRAyExMlFxgaHwQbESQpHB0eEiUmH/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQIDBQT/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARESAv/aAAwDAQACEQMRAD8A+8AfW8YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABKq4p3SCqxnGvsjrLiZmrdPTSBrmtqsSKdZ6RmznGmdsW5uIi2ii8wvPrVP1AGnoAHIAAAAAAAAAAAAAAAABQQAAAAcVY0RpnyZziTOmXeRcreZ+HVnONHyxftDK3HMGuVmuatZtySIsoNAAAAAAPQAOQAAAAAAAAXJTz3/ACKpdINfJDFEL+/3sGLcT9es8ZL5ecAxbl9ennnBzXVFOs+XhnONfZHDUWRt57/r6OasWKfXpGbCZmrdPD/EjzVGuNaVY0zti3NxP8t03I81+xe2qrmCgAAAAAAAAAAD0ADkAAAAAAAAAAFhxVjRGmfIV3ZJtTqxqxJnTLvLm3HPmLy0nGj5Yv2hxNU1azbkijUkiRFhQVBQEsWuoAAAAAAAAAAAAD0ADkAAAAAlVcU7pBRlONfZHWXEzNW6emkDU81tViRT69IzZzizO2Lc83ERbRReYkx8W6big0AAAAAAAAAAAAAAAAAAAAAA9AA5A4qxojTPkznEmdMu8i5W8z8O6bM5xv6xftDK3FRrkmuatZtySIsoNAAAAAAAAAAAAAAAAAAAAAAAAAAAAOpxZnbFueric903UEkxFAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9k=");
 	background-size: cover;
 	background-position: top center;
@@ -310,6 +317,7 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
 
 /*End contact Section */
 
@@ -483,5 +491,25 @@ p {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
+	.btn1 {
+		display: inline-block;
+		padding: 20px 40px;
+		background: var(--primary-color);
+		color: #fff;
+		border-radius: 5px;
+		border: solid #fff 1px;
+		margin-top: 30px;
+		opacity: 0.7;
+		font-size: 2rem;
+	    letter-spacing: .1rem;
+	
+	}
+	
+	.btn1:hover {
+		transform: scale(0.98);
+	}
+	    
+	  
+	  
 }
 /* End  Media Query For Desktop */
