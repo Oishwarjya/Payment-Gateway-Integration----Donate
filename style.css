@@ -44,6 +44,29 @@ p {
 }
 .section-title span {
 	color: white;
+	}
+
+h2{
+	color: black;
+	font-size: 30px;
+}
+
+h3{
+	color: rgb(226, 162, 162);
+	font-size: 15px;
+}
+
+h4{
+	color: rgb(226, 162, 162);
+	font-size: 15px;
+}
+h5{
+	color: rgb(226, 162, 162);
+	font-size: 15px;
+}
+h6{
+	color: rgb(226, 162, 162);
+	font-size: 15px;
 }
 
 .cta {
@@ -292,6 +315,7 @@ p {
 }
 #about .col-right {
 	width: 100%;
+	
 }
 #about .col-right h2 {
 	font-size: 1.8rem;
